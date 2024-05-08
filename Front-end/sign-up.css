@@ -1,0 +1,174 @@
+html, body {
+    height:100%;
+}
+html {
+    display:table;
+    width:100%;
+}
+body {
+    display: table-cell;
+    text-align: center;
+    background: url("./img/background-start-screen.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    vertical-align: middle;
+}
+.background-registro {
+
+    width: 300px;
+    margin: auto;
+    background-image: linear-gradient(163deg, #f5ff9a 0%, #b16a00 100%);
+    border-radius: 25px;
+    transition: all .3s;
+
+}
+.background-registro:hover {
+
+    box-shadow: 0px 0px 30px 1px rgba(207, 161, 9, 0.37);
+
+}
+#cadastro {
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: #171717;
+    border-radius: 25px;
+    transform: scale(1.005);
+    
+}
+#cadastro:hover {
+
+    transform: scale(0.99);
+    transition: all .5s;
+
+}
+.angkor-regular {
+    font-family: "Angkor", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.title-sign-up {
+    
+    margin: 0;
+    padding-top: 10%;
+    padding-bottom: 0;
+    text-align: center;
+    color: rgb(241, 241, 241);
+    font-size: 25px;
+    font-family: Angkor;
+    text-shadow: 5px 5px 5px black;
+    
+}
+.subtitle-sign-up {
+                            
+    margin-top: 10px;
+    padding-bottom: 0;
+    text-align: center;
+    color: rgb(175, 175, 175);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px 5px black;
+
+}
+.preenchimento {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255); 
+    background-color: #171717;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+
+}
+.preenchimento-input {
+
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: rgb(253, 253, 253);
+
+}
+#cadastro .box-btn {
+
+    display: inline-flex;
+    flex-direction:inherit;
+    gap: 10px;
+    align-items: center;
+    margin: 15px;
+    padding: 0 5px; 
+
+}
+#cadastro .box-btn button {
+    text-decoration: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 0.5px 0.5px 2px rgb(69, 74, 75);
+    font-weight: bold;
+    width: 50%;
+    background-image:linear-gradient(150deg, #f0fc43 0%, #5c4005 100%); 
+    padding: 0.4em 1em;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+    font-size: 15px;
+    float: left;
+    margin: 15px;
+    box-shadow: 2px 2px 5px black;
+}
+#cadastro .box-btn button:hover { 
+    
+    background-image: linear-gradient(150deg, #bf8300 0%, #462000 100%); color:rgb(255, 255, 255); 
+    transform: scale(1.02);
+    color: white;
+
+}
+#cadastro #send-btn {
+
+    text-decoration: none;
+    color: black;
+
+}
+#cadastro #send-btn:hover {
+
+    text-decoration: none;
+    color: white;
+
+}
+#cadastro .btn-sign-up {
+    
+    text-shadow: 0.5px 0.5px 2px rgb(75, 67, 67);
+    font-weight: bold;
+    width: 50%;
+    background-image:linear-gradient(150deg, #e9e6e6 0%, #383838 100%); 
+    color: #000000;
+    text-decoration:none;
+    padding: 0.4em 1em;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .4s;
+    font-size: 0.9em;
+    float: left;
+    margin-right: 5%;
+    box-shadow: 2px 2px 5px black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#cadastro .btn-sign-up:hover {
+
+    background-image: linear-gradient(150deg, #555555 0%, #000000 100%); color:rgb(255, 255, 255); 
+    transform: scale(0.98);
+
+} 

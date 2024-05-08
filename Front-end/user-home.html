@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Barbershop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Angkor&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="user-home.css">
+</head>
+<body>
+    <div class="fullpage">
+        <header>
+            <nav>
+                <a class="logo" href="./user-login.html">
+                    <h1>Smart Barbershop</h1>
+                </a>
+
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+
+                <ul class="nav-list">
+                    <li><a href="/Front-end/user-home.html">Início</a></li>
+                    <li><a href="/Front-end/scheduling.html">Agendamento</a></li>
+                    <li><a href="/Front-end/price-table.html">Tabela de Preços</a></li>
+                    <li><a href="/Front-end/inspiration.html">Inspiração</a></li>
+                    <li><a href="/Front-end/infrastructure.html">Infraestrutura</a></li>
+                </ul>
+                
+            </nav>
+
+        </header>
+
+        <main>
+            <form class="scheduling-section">
+                <div class="schedule-txt">
+                    <h2>Seja bem vindo!</h2>
+                    <h3>Confira nas sessões abaixo nossos serviços, local de trabalho e preços <br> Faça já o seu agendamento!!!</h3>
+                </div>
+
+                <div class="schedule-btn-box">
+                    <a class="schedule-btn" href="/Front-end/scheduling.html">Agendar Horário</a>
+                </div>
+            </form>
+            
+            <div class="slider">
+        
+                <div class="slides">
+        
+                    <!-- Radio Buttons -->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+        
+                    <!-- Fim Radio Buttons -->
+        
+                    <!-- Slide Images -->
+                    <div class="slide first">
+                        <a href="/Front-end/inspiration.html"><img src="./img/inspiração.jpeg" alt=""></a>
+                    </div>
+                
+                
+                    <div class="slide">
+                        <a href="/Front-end/infrastructure.html"><img src="./img/infraestrutura.jpg" alt=""></a>
+                    </div>
+                
+        
+                
+                    <div class="slide">
+                        <a href="/Front-end/price-table.html"><img src="./img/precos.jpg" alt=""></a>
+                    </div>
+        
+                    <!-- Fim Slide Images -->
+        
+                    <!-- Navigation Auto -->
+                    <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                    </div>
+                    <!-- Fim Navigation Auto -->
+        
+                </div>
+                
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+
+            </div>
+        </main>
+        
+        <footer>
+            <ul>
+                <li class="contact1"><a href="">Telefone</a></li>
+                <li class="contact2"><a href="">Instagram</a></li>
+                <li class="contact3"><a href="">E-mail</a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="mobile-navbar.js"></script>
+    <script src="slider.js"></script>
+</body>
+</html>
